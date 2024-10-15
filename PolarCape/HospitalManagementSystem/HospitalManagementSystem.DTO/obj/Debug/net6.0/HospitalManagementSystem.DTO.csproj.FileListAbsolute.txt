@@ -1,0 +1,15 @@
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\bin\Debug\net6.0\HospitalManagementSystem.DTO.deps.json
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\bin\Debug\net6.0\HospitalManagementSystem.DTO.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\bin\Debug\net6.0\HospitalManagementSystem.DTO.pdb
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\bin\Debug\net6.0\HospitalManagementSystem.Domain.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\bin\Debug\net6.0\HospitalManagementSystem.Domain.pdb
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\HospitalManagementSystem.DTO.csproj.AssemblyReference.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\HospitalManagementSystem.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\HospitalManagementSystem.DTO.AssemblyInfoInputs.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\HospitalManagementSystem.DTO.AssemblyInfo.cs
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\HospitalManagementSystem.DTO.csproj.CoreCompileInputs.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\HospitalManagementSystem.DTO.csproj.CopyComplete
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\HospitalManagementSystem.DTO.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\refint\HospitalManagementSystem.DTO.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\HospitalManagementSystem.DTO.pdb
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DTO\obj\Debug\net6.0\ref\HospitalManagementSystem.DTO.dll

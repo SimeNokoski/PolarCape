@@ -1,0 +1,12 @@
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\bin\Debug\net6.0\HospitalManagementSystem.Domain.deps.json
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\bin\Debug\net6.0\HospitalManagementSystem.Domain.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\bin\Debug\net6.0\HospitalManagementSystem.Domain.pdb
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\HospitalManagementSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\HospitalManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\HospitalManagementSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\HospitalManagementSystem.Domain.AssemblyInfo.cs
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\HospitalManagementSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\HospitalManagementSystem.Domain.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\refint\HospitalManagementSystem.Domain.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\HospitalManagementSystem.Domain.pdb
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Domain\obj\Debug\net6.0\ref\HospitalManagementSystem.Domain.dll

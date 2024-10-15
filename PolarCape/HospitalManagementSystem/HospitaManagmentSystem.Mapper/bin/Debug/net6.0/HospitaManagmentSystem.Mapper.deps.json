@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HospitaManagmentSystem.Mapper/1.0.0": {
+        "dependencies": {
+          "HospitalManagementSystem.DTO": "1.0.0",
+          "HospitalManagementSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HospitaManagmentSystem.Mapper.dll": {}
+        }
+      },
+      "HospitalManagementSystem.Domain/1.0.0": {
+        "runtime": {
+          "HospitalManagementSystem.Domain.dll": {}
+        }
+      },
+      "HospitalManagementSystem.DTO/1.0.0": {
+        "dependencies": {
+          "HospitalManagementSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HospitalManagementSystem.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HospitaManagmentSystem.Mapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalManagementSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalManagementSystem.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

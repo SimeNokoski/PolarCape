@@ -1,0 +1,485 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\HospitalManagementSystem.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\HospitalManagementSystem.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\HospitalManagementSystem.Api.csproj",
+        "projectName": "HospitalManagementSystem.Api",
+        "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\HospitalManagementSystem.Api.csproj",
+        "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj"
+              },
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj",
+        "projectName": "HospitalManagementSystem.DataAccess",
+        "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj",
+        "projectName": "HospitalManagementSystem.Domain",
+        "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj",
+        "projectName": "HospitalManagementSystem.DTO",
+        "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj",
+        "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj",
+        "projectName": "HospitalManagementSystem.Helper",
+        "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj",
+        "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj"
+              },
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj",
+        "projectName": "HospitalManagementSystem.Services",
+        "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj",
+        "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj"
+              },
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj"
+              },
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "XAct.Core.PCL": {
+              "target": "Package",
+              "version": "[0.0.5014, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj",
+        "projectName": "HospitaManagmentSystem.Mapper",
+        "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj",
+        "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj"
+              },
+              "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj": {
+                "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

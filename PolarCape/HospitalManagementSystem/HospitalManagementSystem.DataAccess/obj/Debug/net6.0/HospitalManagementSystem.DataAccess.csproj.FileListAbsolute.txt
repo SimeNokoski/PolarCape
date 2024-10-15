@@ -1,0 +1,17 @@
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\bin\Debug\net6.0\HospitalManagementSystem.DataAccess.deps.json
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\bin\Debug\net6.0\HospitalManagementSystem.DataAccess.runtimeconfig.json
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\bin\Debug\net6.0\HospitalManagementSystem.DataAccess.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\bin\Debug\net6.0\HospitalManagementSystem.DataAccess.pdb
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\bin\Debug\net6.0\HospitalManagementSystem.Domain.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\bin\Debug\net6.0\HospitalManagementSystem.Domain.pdb
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.csproj.AssemblyReference.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.AssemblyInfoInputs.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.AssemblyInfo.cs
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.csproj.CopyComplete
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\refint\HospitalManagementSystem.DataAccess.dll
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.pdb
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\HospitalManagementSystem.DataAccess.genruntimeconfig.cache
+C:\Users\simen\OneDrive\Desktop\PolarCape\HospitalManagementSystem\HospitalManagementSystem.DataAccess\obj\Debug\net6.0\ref\HospitalManagementSystem.DataAccess.dll
