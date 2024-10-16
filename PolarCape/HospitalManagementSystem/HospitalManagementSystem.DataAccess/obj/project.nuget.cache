@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m6wrEIame6Rz8P9gSS7ujlJU0uzcXHJ8OM4dQiijLV8IT17gC4vM6DPFYVB055Oq2+JzK6Aj6IiKUXzdorz+LA==",
+  "dgSpecHash": "xosQy89gBE8yFpM+mE7V1NhybZ0XebZ715LeZEbRmMU6dnM3+NUCBpoQbcdznxLzGeyNhpmDxEJ2SSupbUXS2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DataAccess\\HospitalManagementSystem.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\simen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

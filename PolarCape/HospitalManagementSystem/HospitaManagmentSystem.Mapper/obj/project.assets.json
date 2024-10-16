@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj",
+      "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj",
       "projectName": "HospitaManagmentSystem.Mapper",
-      "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj",
+      "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\HospitaManagmentSystem.Mapper.csproj",
       "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\obj\\",
+      "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitaManagmentSystem.Mapper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,11 +72,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj"
+            "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Domain\\HospitalManagementSystem.Domain.csproj"
             },
-            "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj": {
-              "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj"
+            "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj": {
+              "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.DTO\\HospitalManagementSystem.DTO.csproj"
             }
           }
         }

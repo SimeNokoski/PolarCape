@@ -37,7 +37,7 @@ namespace HospitalManagementSystem.Api.Controllers
         public IActionResult BookAppointment(BookAppointmentDto bookAppointmentDto)
         {
             var patientId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            _appointmentService.BookAppointment(bookAppointmentDto,patientId);
+            _appointmentService.BookAppointment(bookAppointmentDto, patientId);
             return Ok();
         }
 
@@ -50,18 +50,19 @@ namespace HospitalManagementSystem.Api.Controllers
             return Ok(appointments);
         }
 
-        [HttpGet("AvailableAppointmentsByDoctorId/{doctorId}"), Authorize(Roles = nameof(Role.Doctor))]
-        public IActionResult AvailableAppointmentsByDoctorId(int doctorId)
+        [HttpGet("AvailableAppointmentsByDoctorId"), Authorize(Roles = nameof(Role.Doctor))]
+        public IActionResult AvailableAppointmentsByDoctorId()
         {
-            var patientId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            var availableAppointments =  _appointmentService.AvailableAppointmentsByDoctorId(doctorId,patientId);
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var availableAppointments = _appointmentService.AvailableAppointmentsByDoctorId(userId);
             return Ok(availableAppointments);
         }
 
         [HttpDelete("deleteAppointment/id"), Authorize(Roles = nameof(Role.Doctor))]
         public IActionResult DeleteAppointment(int id)
         {
-            _appointmentService.RemoveAppointment(id);
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            _appointmentService.RemoveAppointment(id, userId);
             return Ok();
         }
 
@@ -73,7 +74,7 @@ namespace HospitalManagementSystem.Api.Controllers
             return Ok();
         }
 
-        [HttpGet("allPatientByDoctor/doctorId")]
+        [HttpGet("allPatientByDoctor"), Authorize(Roles = nameof(Role.Doctor))]
         public IActionResult AllPatientByDoctorId()
         {
             var doctorId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));

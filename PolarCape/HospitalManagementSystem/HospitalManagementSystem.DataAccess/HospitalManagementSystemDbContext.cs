@@ -35,6 +35,12 @@ namespace HospitalManagementSystem.DataAccess
                 .HasForeignKey(m => m.PatientId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<MedicalRecord>()
+                .HasOne(m => m.Doctor)
+                .WithMany(p => p.MedicalRecords)
+                .HasForeignKey(m => m.DoctorId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             modelBuilder.Entity<Doctor>()
                  .HasOne(d => d.User)
                  .WithOne(d=>d.Doctor)
