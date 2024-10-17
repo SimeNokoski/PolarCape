@@ -553,7 +553,8 @@
         "dependencies": {
           "HospitalManagementSystem.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.33",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33",
+          "XAct.Core.PCL": "0.0.5014"
         },
         "runtime": {
           "HospitalManagementSystem.DataAccess.dll": {}
@@ -587,16 +588,23 @@
           "HospitaManagmentSystem.Mapper": "1.0.0",
           "HospitalManagementSystem.DTO": "1.0.0",
           "HospitalManagementSystem.DataAccess": "1.0.0",
+          "HospitalManagementSystem.Shared": "1.0.0",
           "XAct.Core.PCL": "0.0.5014"
         },
         "runtime": {
           "HospitalManagementSystem.Services.dll": {}
         }
       },
+      "HospitalManagementSystem.Shared/1.0.0": {
+        "runtime": {
+          "HospitalManagementSystem.Shared.dll": {}
+        }
+      },
       "HospitaManagmentSystem.Mapper/1.0.0": {
         "dependencies": {
           "HospitalManagementSystem.DTO": "1.0.0",
-          "HospitalManagementSystem.Domain": "1.0.0"
+          "HospitalManagementSystem.Domain": "1.0.0",
+          "XAct.Core.PCL": "0.0.5014"
         },
         "runtime": {
           "HospitaManagmentSystem.Mapper.dll": {}
@@ -1030,6 +1038,11 @@
       "sha512": ""
     },
     "HospitalManagementSystem.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalManagementSystem.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

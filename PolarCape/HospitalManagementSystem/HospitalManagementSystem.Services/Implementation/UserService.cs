@@ -117,22 +117,10 @@ namespace HospitalManagementSystem.Services.Implementation
             {
                 Email = registerUserDto.Email,
                 UserName = registerUserDto.UserName,
-                Role = registerUserDto.Role,
+                Role = Domain.Enums.Role.Patient,
                 Password = hash,
             };
-            _userRepository.Add(user);
-            if (user.Role == Domain.Enums.Role.Doctor)
-            {
-                Doctor doctor = new Doctor
-                {
-                    Age = registerUserDto.Age,
-                    FirstName = registerUserDto.FirstName,
-                    LastName = registerUserDto.LastName,
-                    UserId = user.Id,
-                    Specialization = registerUserDto.Specialization,
-                };
-                _doctorRepository.Add(doctor);
-            }
+            _userRepository.Add(user);         
 
             if(user.Role == Domain.Enums.Role.Patient)
             {

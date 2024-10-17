@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nb4EPi1VUAi0oDyjMtzHsjN4Hg53UF9lqNJww7YNkCiWvbpZ1rl//i47JdqhV1/3AkZwaYE1ggOoGheLLOp9Gg==",
+  "dgSpecHash": "EFXIQMLfkrHLLWNAZ4xLqX6Ymw1Nvzi0mfAiaadEfIhdnB+TywvWYZq4R7fdvE8dpbxjvGP4TiAWiorG6QLXLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj",
+  "projectFilePath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simen\\.nuget\\packages\\commonservicelocator\\1.3.0\\commonservicelocator.1.3.0.nupkg.sha512",
     "C:\\Users\\simen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

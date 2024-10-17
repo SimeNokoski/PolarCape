@@ -10,6 +10,7 @@ namespace HospitalManagementSystem.Services.Implementation
         private readonly IAppointmentRepository _appointmentsRepository;
         private readonly IPatientsRepository _patientsRepository;
         private readonly IDoctorRepository _doctorRepository;
+
         public AppointmentService(IAppointmentRepository appointmentsRepository, IPatientsRepository patientsRepository, IDoctorRepository doctorRepository)
         {
             _appointmentsRepository = appointmentsRepository;
@@ -21,11 +22,11 @@ namespace HospitalManagementSystem.Services.Implementation
         {
             var doctor = _doctorRepository.GetAll().FirstOrDefault(x => x.UserId == userId);
             bool isAppointmentExists = _appointmentsRepository.GetAll().Any(x => x.DoctorId == doctor.Id && x.DateTime == createAppointmentDto.DateTime);
-           if(isAppointmentExists)
+            if (isAppointmentExists)
             {
                 throw new Exception("There is already an appointment at the specified time");
             }
-            
+
             var appointment = createAppointmentDto.ToAppoinment();
             appointment.DoctorId = doctor.Id;
             _appointmentsRepository.Add(appointment);
@@ -38,14 +39,17 @@ namespace HospitalManagementSystem.Services.Implementation
             return patients;
         }
 
-        public List<GetAppointmentsByDoctorId> AvailableAppointmentsByDoctorId(int doctorId, int patientId)
+        public List<GetAppointmentsByDoctorId> AvailableAppointmentsByDoctorId(int userId)
         {
-            return _appointmentsRepository.GetAll().Where(x=>x.DoctorId == doctorId && !x.Status && x.PatientId == patientId).Select(x=>x.ToAppointmentDto()).ToList();
+            var doctor = _doctorRepository.GetAll().FirstOrDefault(x => x.UserId == userId);
+            var appointmets = _appointmentsRepository.GetAll().Where(x => !x.Status && x.PatientId == null && x.DoctorId == doctor.Id).ToList();
+
+            return appointmets.Select(x => x.ToAppointmentDto()).ToList();
         }
 
         public void BookAppointment(BookAppointmentDto bookAppointmentDto, int userId)
         {
-            var patient = _patientsRepository.GetAll().FirstOrDefault(x=>x.UserId == userId);
+            var patient = _patientsRepository.GetAll().FirstOrDefault(x => x.UserId == userId);
             var appointment = _appointmentsRepository.GetById(bookAppointmentDto.AppointmentId);
             appointment.Status = true;
             appointment.PatientId = patient.Id;
@@ -55,7 +59,7 @@ namespace HospitalManagementSystem.Services.Implementation
 
         public void CancelAppointment(PatientCancelAppointmentDto patientCancelAppointmentDto, int userId)
         {
-            var patient = _patientsRepository.GetAll().FirstOrDefault(x=>x.UserId==userId);
+            var patient = _patientsRepository.GetAll().FirstOrDefault(x => x.UserId == userId);
             var appointment = _appointmentsRepository.GetById(patientCancelAppointmentDto.AppointmentId);
             if (appointment.PatientId == patient.Id)
             {
@@ -72,12 +76,17 @@ namespace HospitalManagementSystem.Services.Implementation
         public List<GetAppointmentsByDoctorId> GetAppointmentsByDoctorId(int doctorId)
         {
             var doctor = _doctorRepository.GetAll().FirstOrDefault(x => x.UserId == doctorId);
-            return _appointmentsRepository.GetAll().Where(x => x.DoctorId == doctor.Id).Select(x=>x.ToAppointmentDto()).ToList();
+            return _appointmentsRepository.GetAll().Where(x => x.DoctorId == doctor.Id).Select(x => x.ToAppointmentDto()).ToList();
         }
 
-        public void RemoveAppointment(int id)
+        public void RemoveAppointment(int id, int userId)
         {
+            var doctor = _doctorRepository.GetAll().FirstOrDefault(x => x.UserId == userId);
             var appointment = _appointmentsRepository.GetById(id);
+            if (appointment.DoctorId != doctor.Id)
+            {
+                throw new Exception("err");
+            }
             _appointmentsRepository.Delete(appointment);
         }
     }

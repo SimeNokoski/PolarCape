@@ -1,5 +1,6 @@
 ﻿using HospitalManagementSystem.DataAccess.Interfaces;
 using HospitalManagementSystem.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace HospitalManagementSystem.DataAccess.Implementation
 {
@@ -24,7 +25,7 @@ namespace HospitalManagementSystem.DataAccess.Implementation
 
         public List<MedicalRecord> GetAll()
         {
-            return _context.MedicalRecords.ToList();
+            return _context.MedicalRecords.Include(x=>x.Patients).Include(x=>x.Doctor).ToList();
         }
 
         public MedicalRecord GetById(int id)

@@ -1,5 +1,7 @@
 ﻿using HospitalManagementSystem.Domain.Models;
 using HospitalManagementSystem.DTO.DoctorDtos;
+using System.Text;
+using XSystem.Security.Cryptography;
 
 namespace HospitaManagmentSystem.Mapper
 {
@@ -7,6 +9,10 @@ namespace HospitaManagmentSystem.Mapper
     {
         public static Doctor ToDoctor(this DoctorDto doctorDto)
         {
+            var md5 = new MD5CryptoServiceProvider();
+            var md5data = md5.ComputeHash(Encoding.ASCII.GetBytes(doctorDto.Password));
+            var hashedPassword = Encoding.ASCII.GetString(md5data);
+
             return new Doctor
             {
                 Specialization = doctorDto.Specialization,
@@ -16,11 +22,10 @@ namespace HospitaManagmentSystem.Mapper
                 User = new User
                 {
                     Email = doctorDto.Email,
-                    Password = doctorDto.Password,
+                    Password = hashedPassword,
                     UserName = doctorDto.UserName,
-                    Role = HospitalManagementSystem.Domain.Enums.Role.Doctor,
+                    Role = HospitalManagementSystem.Domain.Enums.Role.Doctor
                 }
-
             };
         }
 

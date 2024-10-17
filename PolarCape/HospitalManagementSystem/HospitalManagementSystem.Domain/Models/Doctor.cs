@@ -13,5 +13,7 @@ namespace HospitalManagementSystem.Domain.Models
         public int UserId { get; set; }
 
         public List<Appointments> Appointments { get; set; }
+        public List<MedicalRecord> MedicalRecords { get; set; }
+
     }
 }
