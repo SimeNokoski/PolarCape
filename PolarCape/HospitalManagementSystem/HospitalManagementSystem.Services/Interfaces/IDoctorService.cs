@@ -4,8 +4,11 @@ namespace HospitalManagementSystem.Services.Interfaces
 {
     public interface IDoctorService
     {
-        void add(DoctorDto doctorDto);
+        void CreateDoctor(DoctorDto doctorDto);
         void DeleteDoctor(int id);
+        void UpdateDoctor(UpdateDoctorDto updateDoctorDto, int userId);
+        
+
   
     }
 }

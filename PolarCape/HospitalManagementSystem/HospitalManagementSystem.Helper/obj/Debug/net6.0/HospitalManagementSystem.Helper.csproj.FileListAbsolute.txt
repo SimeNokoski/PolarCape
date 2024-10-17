@@ -44,3 +44,5 @@ C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalMan
 C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Helper\obj\Debug\net6.0\refint\HospitalManagementSystem.Helper.dll
 C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Helper\obj\Debug\net6.0\HospitalManagementSystem.Helper.pdb
 C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Helper\obj\Debug\net6.0\ref\HospitalManagementSystem.Helper.dll
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Helper\bin\Debug\net6.0\HospitalManagementSystem.Shared.dll
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Helper\bin\Debug\net6.0\HospitalManagementSystem.Shared.pdb

@@ -1,12 +1,13 @@
 ﻿using HospitalManagementSystem.DTO.MedicalRecordDtos;
 using HospitalManagementSystem.Services.Interfaces;
+using HospitalManagementSystem.Shared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace HospitalManagementSystem.Api.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Doctor")]
     [Route("api/[controller]")]
     [ApiController]
     public class MedicalRecordController : ControllerBase
@@ -18,26 +19,106 @@ namespace HospitalManagementSystem.Api.Controllers
         }
 
         [HttpPost("createMedicalRecord")]
-        public IActionResult CreateMedicalRecordForPatient(MedicalRecordDto medicalRecordDto)
+        public IActionResult CreateMedicalRecordForPatient(CreateMedicalRecordDto medicalRecordDto)
         {
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            _medicalRecord.CreateMedicalRecordForPatient(medicalRecordDto,userId);
-            return Ok();
+            try
+            {
+                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                _medicalRecord.CreateMedicalRecordForPatient(medicalRecordDto, userId);
+                return StatusCode(201, "CreateMedicalRecord");
+            }
+            catch (PatientNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "System error occurred, contact admin!");
+            }
         }
 
-        [HttpGet("id")]
-       public IActionResult AllPatientById(int id)
+        [HttpGet("AllMedicalRecordByPatientById/id")]
+       public IActionResult AllMedicalRecordByPatientId(int id)
         {
-           var medicalRecord =  _medicalRecord.AllMedicalRecordByPatientIds(id);
-            return Ok(medicalRecord);    
+            try
+            {
+                var medicalRecord = _medicalRecord.AllMedicalRecordByPatientIds(id);
+                return Ok(medicalRecord);
+            }
+            catch (PatientNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "System error occurred, contact admin!");
+            }
+
         }
 
-        [HttpDelete]
+        [HttpDelete("DeleteMedicalRecord/id")]
         public IActionResult DeleteMedicalRecord(int id)
         {
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            _medicalRecord.DeleteMedicalRecord(id, userId); 
-            return Ok();
+            try
+            {
+                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                _medicalRecord.DeleteMedicalRecord(id, userId);
+                return Ok();
+            }
+            catch(UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
+            }
+            catch (MedicalRecordNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "System error occurred, contact admin!");
+            }
+
+        }
+
+        [HttpPut("UpdateMedicalRecord")]
+        public IActionResult UpdateMedicalRecord(UpdateMedicalRecord updateMedicalRecord)
+        {
+            try
+            {
+                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                _medicalRecord.UpdateMedicalRecord(updateMedicalRecord, userId);
+                return Ok();
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
+            }
+            catch(MedicalRecordNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch(InvalidDataException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "System error occurred, contact admin!");
+            }
+        }
+
+        [HttpGet("GetAllMedicalRecord")]
+        public IActionResult GetAllMedicalRecord()
+        {
+            try
+            {
+                var medicalRecords = _medicalRecord.GetAllMedicalRecord();
+                return Ok(medicalRecords);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "System error occurred, contact admin!");
+            }
         }
     }
 }

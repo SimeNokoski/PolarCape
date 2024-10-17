@@ -1,0 +1,12 @@
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\bin\Debug\net6.0\HospitalManagementSystem.Shared.deps.json
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\bin\Debug\net6.0\HospitalManagementSystem.Shared.dll
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\bin\Debug\net6.0\HospitalManagementSystem.Shared.pdb
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\HospitalManagementSystem.Shared.csproj.AssemblyReference.cache
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\HospitalManagementSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\HospitalManagementSystem.Shared.AssemblyInfoInputs.cache
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\HospitalManagementSystem.Shared.AssemblyInfo.cs
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\HospitalManagementSystem.Shared.csproj.CoreCompileInputs.cache
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\HospitalManagementSystem.Shared.dll
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\refint\HospitalManagementSystem.Shared.dll
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\HospitalManagementSystem.Shared.pdb
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Shared\obj\Debug\net6.0\ref\HospitalManagementSystem.Shared.dll

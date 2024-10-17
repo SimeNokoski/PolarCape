@@ -166,3 +166,5 @@ C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalMan
 C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Api\obj\Debug\net6.0\HospitalManagementSystem.Api.pdb
 C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Api\obj\Debug\net6.0\HospitalManagementSystem.Api.genruntimeconfig.cache
 C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Api\obj\Debug\net6.0\ref\HospitalManagementSystem.Api.dll
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Api\bin\Debug\net6.0\HospitalManagementSystem.Shared.dll
+C:\Users\simen\OneDrive\Desktop\Github PolarCape\PolarCape\PolarCape\HospitalManagementSystem\HospitalManagementSystem.Api\bin\Debug\net6.0\HospitalManagementSystem.Shared.pdb

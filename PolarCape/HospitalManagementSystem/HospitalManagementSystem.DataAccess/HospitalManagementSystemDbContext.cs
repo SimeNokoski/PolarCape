@@ -1,5 +1,7 @@
 ﻿using HospitalManagementSystem.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Text;
+using XSystem.Security.Cryptography;
 
 namespace HospitalManagementSystem.DataAccess
 {
@@ -52,6 +54,22 @@ namespace HospitalManagementSystem.DataAccess
                 .WithOne(p=>p.Patients)
                 .HasForeignKey<Patients>(p => p.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+
+
+            var md5 = new MD5CryptoServiceProvider();
+            var md5data = md5.ComputeHash(Encoding.ASCII.GetBytes("sime123!"));
+            var hashedPassword = Encoding.ASCII.GetString(md5data);
+
+            modelBuilder.Entity<User>()
+                .HasData(new User
+                {
+                   Id = 29,
+                   Email = "sime99@gmail.com",
+                   Password = hashedPassword,
+                   Role = Domain.Enums.Role.SuperAdmin,
+                   UserName = "simeSuperAdmin"               
+                });
         }
     }
 }

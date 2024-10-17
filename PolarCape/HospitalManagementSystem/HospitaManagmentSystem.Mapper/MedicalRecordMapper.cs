@@ -5,7 +5,7 @@ namespace HospitaManagmentSystem.Mapper
 {
     public static class MedicalRecordMapper
     {
-        public static MedicalRecord ToMedicalRecord(this MedicalRecordDto medicalRecordDto)
+        public static MedicalRecord ToMedicalRecord(this CreateMedicalRecordDto medicalRecordDto)
         {
             return new MedicalRecord
             {
@@ -20,9 +20,9 @@ namespace HospitaManagmentSystem.Mapper
             };
         }
 
-        public static AllMedicalRecordByPatientId ToAllMedicalRecordByPatientId(this MedicalRecord medicalRecord)
+        public static MedicalRecordDto ToMedicalRecord(this MedicalRecord medicalRecord)
         {
-            return new AllMedicalRecordByPatientId
+            return new MedicalRecordDto
             {
                 StartDate = medicalRecord.StartDate,
                 DateTime = medicalRecord.DateTime,

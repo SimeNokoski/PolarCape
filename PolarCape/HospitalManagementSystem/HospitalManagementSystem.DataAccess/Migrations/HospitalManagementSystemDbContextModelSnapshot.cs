@@ -184,6 +184,16 @@ namespace HospitalManagementSystem.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 29,
+                            Email = "sime99@gmail.com",
+                            Password = "j?b??????tN???",
+                            Role = 2,
+                            UserName = "simeSuperAdmin"
+                        });
                 });
 
             modelBuilder.Entity("HospitalManagementSystem.Domain.Models.Appointments", b =>
