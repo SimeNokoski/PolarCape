@@ -5,7 +5,7 @@ namespace HospitaManagmentSystem.Mapper
 {
     public static class MedicalRecordMapper
     {
-        public static MedicalRecord ToMedicalRecord(this MedicalRecordDto medicalRecordDto)
+        public static MedicalRecord ToMedicalRecord(this CreateMedicalRecordDto medicalRecordDto)
         {
             return new MedicalRecord
             {
@@ -15,7 +15,23 @@ namespace HospitaManagmentSystem.Mapper
                 Diagnosis = medicalRecordDto.Diagnosis,
                 EndDate = medicalRecordDto.EndDate,
                 PatientId = medicalRecordDto.PatientId,
-                Treatment = medicalRecordDto.Treatment
+                Treatment = medicalRecordDto.Treatment,
+
+            };
+        }
+
+        public static MedicalRecordDto ToMedicalRecord(this MedicalRecord medicalRecord)
+        {
+            return new MedicalRecordDto
+            {
+                StartDate = medicalRecord.StartDate,
+                DateTime = medicalRecord.DateTime,
+                Description = medicalRecord.Description,
+                Diagnosis = medicalRecord.Diagnosis,
+                EndDate = medicalRecord.EndDate,
+                Treatment = medicalRecord.Treatment,
+                PatientFullName = $"{medicalRecord.Patients.FirstName} {medicalRecord.Patients.LastName}",
+                DoctorFullName = $"{medicalRecord.Doctor.LastName} {medicalRecord.Doctor.LastName}",
             };
         }
     }

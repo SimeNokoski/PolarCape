@@ -987,7 +987,8 @@
         "dependencies": {
           "HospitalManagementSystem.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.33",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33",
+          "XAct.Core.PCL": "0.0.5014"
         },
         "compile": {
           "bin/placeholder/HospitalManagementSystem.DataAccess.dll": {}
@@ -1041,6 +1042,7 @@
           "HospitaManagmentSystem.Mapper": "1.0.0",
           "HospitalManagementSystem.DTO": "1.0.0",
           "HospitalManagementSystem.DataAccess": "1.0.0",
+          "HospitalManagementSystem.Shared": "1.0.0",
           "XAct.Core.PCL": "0.0.5014"
         },
         "compile": {
@@ -1050,12 +1052,23 @@
           "bin/placeholder/HospitalManagementSystem.Services.dll": {}
         }
       },
+      "HospitalManagementSystem.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HospitalManagementSystem.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HospitalManagementSystem.Shared.dll": {}
+        }
+      },
       "HospitaManagmentSystem.Mapper/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "HospitalManagementSystem.DTO": "1.0.0",
-          "HospitalManagementSystem.Domain": "1.0.0"
+          "HospitalManagementSystem.Domain": "1.0.0",
+          "XAct.Core.PCL": "0.0.5014"
         },
         "compile": {
           "bin/placeholder/HospitaManagmentSystem.Mapper.dll": {}
@@ -2731,6 +2744,11 @@
       "path": "../HospitalManagementSystem.Services/HospitalManagementSystem.Services.csproj",
       "msbuildProject": "../HospitalManagementSystem.Services/HospitalManagementSystem.Services.csproj"
     },
+    "HospitalManagementSystem.Shared/1.0.0": {
+      "type": "project",
+      "path": "../HospitalManagementSystem.Shared/HospitalManagementSystem.Shared.csproj",
+      "msbuildProject": "../HospitalManagementSystem.Shared/HospitalManagementSystem.Shared.csproj"
+    },
     "HospitaManagmentSystem.Mapper/1.0.0": {
       "type": "project",
       "path": "../HospitaManagmentSystem.Mapper/HospitaManagmentSystem.Mapper.csproj",
@@ -2752,11 +2770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\HospitalManagementSystem.Api.csproj",
+      "projectUniqueName": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\HospitalManagementSystem.Api.csproj",
       "projectName": "HospitalManagementSystem.Api",
-      "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\HospitalManagementSystem.Api.csproj",
+      "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\HospitalManagementSystem.Api.csproj",
       "packagesPath": "C:\\Users\\simen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\obj\\",
+      "outputPath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\simen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2773,11 +2791,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj": {
-              "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj"
+            "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj": {
+              "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Helper\\HospitalManagementSystem.Helper.csproj"
             },
-            "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj": {
-              "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj"
+            "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj": {
+              "projectPath": "C:\\Users\\simen\\OneDrive\\Desktop\\Github PolarCape\\PolarCape\\PolarCape\\HospitalManagementSystem\\HospitalManagementSystem.Services\\HospitalManagementSystem.Services.csproj"
             }
           }
         }
