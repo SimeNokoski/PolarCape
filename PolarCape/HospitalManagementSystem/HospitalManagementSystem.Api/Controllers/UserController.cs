@@ -12,6 +12,7 @@ namespace HospitalManagementSystem.Api.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+
         public UserController(IUserService userService)
         {
             _userService = userService;
@@ -45,16 +46,6 @@ namespace HospitalManagementSystem.Api.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred!");
             }
-        }
-        private int GetAuthorizedUserId()
-        {
-            if (!int.TryParse(User.FindFirst(ClaimTypes.NameIdentifier)?
-                .Value, out var userId))
-            {
-                string name = User.FindFirst(ClaimTypes.Name)?.Value;
-                throw new Exception($"{name} identifier claim does not exist!");
-            }
-            return userId;
         }
     }
 }

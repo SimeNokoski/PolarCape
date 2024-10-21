@@ -52,7 +52,7 @@ namespace HospitalManagementSystem.Api.Controllers
         {
             try
             {
-                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                var userId = GetAuthorizedUserId();
                 _doctor.UpdateDoctor(updateDoctorDto,userId);
                 return Ok();
             }
@@ -60,6 +60,16 @@ namespace HospitalManagementSystem.Api.Controllers
             {
                 return StatusCode(500, "System error occurred, contact admin!");
             }
+        }
+        private int GetAuthorizedUserId()
+        {
+            if (!int.TryParse(User.FindFirst(ClaimTypes.NameIdentifier)?
+                .Value, out var userId))
+            {
+                string name = User.FindFirst(ClaimTypes.Name)?.Value;
+                throw new Exception($"{name} identifier claim does not exist!");
+            }
+            return userId;
         }
     }
 }

@@ -78,13 +78,13 @@ namespace HospitalManagementSystem.Services.Implementation
             {
                 throw new MedicalRecordNotFoundException($"Medical record with id {medicalRecord.Id} does not exist");
             }
-            if (medicalRecord.StartDate.Date < DateTime.Now.Date)
+            if (updateMedicalRecord.StartDate < DateTime.UtcNow)
             {
-                throw new InvalidDataException("err stardate");
+                throw new InvalidDataException("Invalid start date");
             }
-            if (medicalRecord.EndDate < medicalRecord.StartDate)
+            if (updateMedicalRecord.EndDate < updateMedicalRecord.StartDate)
             {
-                throw new InvalidDataException("err enddate");
+                throw new InvalidDataException("invalid end date");
             }
 
 
